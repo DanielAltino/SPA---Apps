@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+   <!-- <Button
+        android:id="@+id/button_conversas"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_rodondo"
+        android:fontFamily="@font/autour_one"
+        android:text="Conversas"
+        android:textColor="@android:color/white" />-->
+
+    <Button
+        android:id="@+id/button_ajuda"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_rodondo"
+        android:fontFamily="@font/autour_one"
+        android:text="Ajuda"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="200dp"
+        android:background="#FFFFFF"
+        android:onClick="sair"
+        app:srcCompat="@drawable/ic_exit_to_app_black_24dp" />
+
+
+
+</LinearLayout>

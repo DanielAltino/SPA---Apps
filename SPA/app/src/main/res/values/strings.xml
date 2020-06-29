@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SPA</string>
+    <string name="login">Login</string>
+    <string name="password">Senha</string>
+    <string name="sign_in">Logar</string>
+    <string name="description">Descrição</string>
+    <string name="send">Enviar</string>
+    <string name="title_activity_login">Login</string>
+
+
+</resources>
